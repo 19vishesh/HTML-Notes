@@ -1,0 +1,1 @@
+All the css notes one should have with detailed code and implementaion
