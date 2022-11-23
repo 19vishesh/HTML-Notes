@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            background: rgb(227, 255, 249);
+        }
+        .box1{
+        height: 300px;
+        width: 300px;
+            background-color: rgb(107, 192, 37);
+            /* box-shadow: 10px 10px 10px grey; */
+            box-shadow: 0 0 60px grey;
+            text-align: center;
+        }
+        .box2{
+        height: 300px;
+        width: 300px;
+            background-color: coral;
+            /* box-shadow: 10px 10px 10px grey; */
+            box-shadow: 0 0 60px grey;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #one, #two{
+            text-shadow: 3px 3px 5px rgb(0, 0, 0, .3);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box1">
+        <h1 id="one">Hello</h1>
+    </div>
+    <div class="box2">
+        <h1 id="two">World !</h1>
+    </div>
+</div>
+</body>
+</html>
