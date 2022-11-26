@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling form</title>
+    <style>
+        /* input[type="text"],input[type="email"]{
+            border:1px solid  #ccc;
+            border-radius: 5px;
+            padding: 0.5rem 0.7rem;
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+        input[type="text"]:focus,
+        input[type="email"]:focus{
+            border-color: #7db0fb;
+            outline: 0;
+            box-shadow: 0 0 0 4px rgba(24,117,225,0.25);
+        }
+        button{
+            background: rgb(123, 123, 192);
+            color: antiquewhite;
+            border: 0;
+            border-radius: 5px;
+
+        }
+
+        .form-group{
+            margin: 1rem;
+        } */
+        
+             
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" />   
+</head>
+<body>
+    <form action="https://formspree.io/f/mpznejrr" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <input type="checkbox" name="front-end" id="front-end">
+            <label class="label-inline" for="front-end">Front-End</label>
+    
+        
+            <input type="checkbox" name="back-end" id="back-end">
+            <label class="label-inline" for="back-end">Back-End</label>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label class="label-inline" for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label class="label-inline" for="female">Female</label>
+        </div>
+
+        <fieldset>
+            <legend>Billing Address</legend>
+            <input type="text" name="address1">
+            <input type="text" name="address2">
+            <input type="text" name="address3">
+        </fieldset>
+
+        <div><button type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+</html>
