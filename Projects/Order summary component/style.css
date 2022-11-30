@@ -5,7 +5,13 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.main-content{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 /* Box Content */
 .box {
     max-width: 400px;
@@ -13,10 +19,10 @@
     background-color: #fff;
     /* border: 2px solid coral; */
     border-radius: 20px;
-    position: absolute;
+    /* position: absolute;
     top: 10vh;
     bottom: 10vh;
-    left: 10vw;
+    left: 10vw; */
     margin: auto;
 }
 .app--header img{
@@ -64,8 +70,13 @@
     align-items: center;
     padding-right: 1.2rem;
 }
+.plan-btn a:hover{
+    text-decoration: none;
+    color: #A3A1C7;
+}
 
 /* Footer */
+
 .btn{
     margin: 1.5rem 3rem 0.5rem;
     padding: 0.8rem;
@@ -79,4 +90,14 @@
 .proceed{
     background-color: #382AE1 ;
 }
-
+.proceed:hover{
+    background-color: #766DEC;
+}
+.cancel a{
+    color: #9193A8; 
+    text-decoration: none;
+}
+.cancel a:hover{
+    color: #70738A;
+    font-weight: 500;
+}
