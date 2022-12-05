@@ -1,0 +1,8 @@
+Falsy in js
+
+1. undefined
+2. null
+3. ''
+4. boolean false
+5. 0
+6. NaN  // not a number

@@ -12,23 +12,22 @@
     justify-content: center;
     align-items: center;
 }
+
 /* Box Content */
 .box {
-    max-width: 400px;
-    max-height: max-content;
+    width: 25rem;
     background-color: #fff;
     /* border: 2px solid coral; */
-    border-radius: 20px;
-    /* position: absolute;
+    border-radius: 1.2rem;
     top: 10vh;
     bottom: 10vh;
-    left: 10vw; */
+    left: 10vw; 
     margin: auto;
 }
 .app--header img{
     box-sizing: border-box;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
 }
 
 /* Heading */
