@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+    background-color: #bdf3f2;
+
+}
+.list{
+    display: flex;
+}
+.list-item{
+    padding: 0 1rem;
+}
+
+/* main-body */
+.main-body{
+
+}

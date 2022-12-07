@@ -1,0 +1,10 @@
+<nav class="navigation">
+            <a href="#"><img src="images/logo.svg" alt="logo"></a>
+                <ul class="list">
+                    <li class="list-item">Home</li>
+                    <li class="list-item">Breaking</li>
+                    <li class="list-item">Popular</li>
+                    <li class="list-item">Trending</li>
+                    <li class="list-item">Categories</li>
+                </ul>
+        </nav>
