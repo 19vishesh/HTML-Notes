@@ -8,8 +8,8 @@ body {
 }
 
 .wrapper {
-  height: 525px;
-  width: 360px;
+  /* height: 350px; */
+  width: 300px;
   color: white;
   background: #272639;
   border-radius: 1rem;
@@ -18,7 +18,7 @@ body {
 }
 
 #topContainer {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .container {

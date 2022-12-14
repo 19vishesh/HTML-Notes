@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper {
+    text-align: center;
+    height: 380px;
+    width: 300px;
+    color: white;
+    background: #272639;
+    border-radius: 1rem;
+    padding: 1.2rem;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+    border: 0;
+}
+
+input[type="button"]{
+    margin-bottom: .2rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: .3rem;
+}
+input[type="text"]{
+    width: 88%;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    border-radius: .3rem;
+    border: 0;
+}
+TODO:
+input[type="answer.value"]{
+    font-size: 1.5rem;
+}
+#clr{
+    width: 89%;
+    height: 2rem;
+}
