@@ -18,7 +18,7 @@
       <div class="container" id="topContainer">
         <div class="title">Bill total</div>
         <div class="inputContainer">
-          <span>$</span>
+          <span>₹</span>
           <input
             onkeyup="calculateBill()"
             type="text"
@@ -45,20 +45,20 @@
           <div class="controls">
             <span class="buttonContainer">
               <button class="splitButton" onclick="increasePeople()">
-                <span class="buttonText">+</span>
+                <span class="buttonText"> + </span>
               </button>
             </span>
-            <span class="splitAmount" id="numberOfPeople">1</span>
+            <span class="splitAmount" id="numberOfPeople"> 1 </span>
             <span class="buttonContainer">
               <button class="splitButton" onclick="decreasePeople()">
-                <span class="buttonText">-</span>
+                <span class="buttonText"> - </span>
               </button>
             </span>
           </div>
         </div>
         <div class="totalContainer">
           <div class="title">Total per Person</div>
-          <div class="total" id="perPersonTotal">$0.00</div>
+          <div class="total" id="perPersonTotal">₹0.00</div>
         </div>
       </div>
     </div>
