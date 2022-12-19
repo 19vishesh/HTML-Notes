@@ -7,8 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="para"><p>Hi there!</p></div>
-    <div class="green"><p>thsi is green</p></div>
-    <script src="language.js"></script>
+    <button id="button">clikme</button>
+
+    <script>
+        const buttonElement = document.getElementById('button')
+
+        buttonElement.addEventListener('click', function(){
+            alert('hey there')
+        })
+    </script>
 </body>
 </html>
