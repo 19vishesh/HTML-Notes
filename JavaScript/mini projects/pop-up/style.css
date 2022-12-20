@@ -11,6 +11,16 @@
     background: linear-gradient(rgb(178, 154, 251), rgb(119, 182, 245), rgb(86, 193, 208));
     font-family: sans-serif;
 }
+.btn{
+    border: 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 0 1.5rem rgb(86, 193, 208);
+    box-shadow: 0 0 .5rem rgb(119, 182, 245) inset; 
+    background: rgb(14, 14, 69);
+    color: #fff;
+}
 .popup{
     background: rgb(191, 253, 191);
     width: 12rem;

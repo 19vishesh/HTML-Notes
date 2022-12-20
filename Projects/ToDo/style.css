@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        130deg,
+        #8052ec,
+        #d161ff
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid #fff;
+    width: 40%;
+    min-width: 25rem;
+    /* position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; */
+    padding: 1.8rem 2.5rem;
+}
+#newtask{  
+    position: relative;
+    background-color: #fff;
+    padding: 1.8rem 2.5rem;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: space-between;
+}
+#newtask input{
+    width: 70%;
+    width: 70%;
+    height: 2.8rem;
+    border: 1px solid #d1d3d4;
+    border-radius: .3rem;
+    font-size: 1rem;
+    padding: .75rem;
+    color: black;
+    font-weight: 500;
+    position: relative;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #8052ec;
+}
+#newtask button{
+    width: 20%;
+    height: 2.8rem;
+    background-color: #8052ec;
+    color: #fff;
+    border: 0;
+    border-radius: .3rem;
+}
+
+/**************** TASK SECTION STARTS **************/
+#tasks {
+    background-color: #fff;
+    padding: 1.8rem 1.25rem;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+    width: 100%;
+    position: relative;
+}
+
+/************* JAVASCRIPT CREATED CLASSES ************/
+.taskblock {
+    background-color: #fff;
+    height: 2.8rem;
+    padding: .3rem .62rem;
+    margin-top: 0.62rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d1d3d4;
+    cursor: pointer;
+
+}
+.taskblock span {
+    font-family: sans-serif;
+    font-size: .93rem;
+}
+.taskblock button {
+    background-color: #8052ec;
+    color: #fff;
+    width: 2.5rem;
+    height: 100%;
+    border: 0;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+}
+.completed{
+    text-decoration: line-through;
+}
