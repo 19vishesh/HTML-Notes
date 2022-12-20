@@ -4,11 +4,15 @@
     transition: .5s;
 }
 :root {
-  --base: #ffc600;
+  --base: #272521;
   --spacing: 10px;
   --blur: 1px;
 }
-
+body{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgb(255, 90, 90), rgb(73, 73, 235), orange);
+}
 .container {
   text-align: center;
   font-family: sans-serif;
