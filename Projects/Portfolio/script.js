@@ -16,7 +16,8 @@ icon.onclick = function() {
 }
 
 // For Auto-typing
-let typed = new Typed('.auto-type', {
+let typed = new Typed('.auto-type', 
+{
     strings: ['नमस्ते', 'Hi', 'Hello', 'Holā', 'Nǐn hǎo'],
     typeSpeed: 150,
     backSpeed: 100,

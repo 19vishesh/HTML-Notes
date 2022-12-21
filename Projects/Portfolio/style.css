@@ -14,7 +14,8 @@
 
 :root {
     --primary-color: #edf2fc;
-    --secondary-color: #212121
+    --secondary-color: #212121;
+    --main-font-color:#ff4321;
 }
 body {
     background-color: var(--primary-color);
@@ -31,11 +32,11 @@ body {
     width: 1.8rem;
     cursor: pointer;
     padding-left: 2rem;
-    color: #ff4321
+    color: var(--main-font-color)
 }
 
 .dark-theme {
-    --primary-color: #000106;
+    --primary-color: #212121;
     --secondary-color: #fff
 }
 
@@ -82,7 +83,7 @@ nav ul a:hover {
 }
 
 span {
-    color: #ff4321
+    color: var(--main-font-color)
 }
 
 .info h1 {

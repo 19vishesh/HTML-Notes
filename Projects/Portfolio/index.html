@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This website created by vishesh-Kumar" />
-    <meta property="og:title" content="VisheshKr..." />
-    <meta property="og:description" content="Get More info about mr. Vishesh kumar..." />
     <title>Portfolio by Vishesh-kumar</title>
+    <link rel="icon" href="/images/favicon-icon.png">
+    <link rel="stylesheet" href="hireme.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
     <div id="preloader"></div>
     <div class="hero">
+        
         <nav>
             <img src="images/logo.png" alt="logo" class="logo">
             
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Hire Me</a></li>
+                <li><a href="#">projects</a></li>
+                <li><a href="#">work exp</a></li>
+                <li><a href="#" onclick="openPopup()">Hire Me</a></li>
             </ul>
             <img src="images/moon.png" alt="" id="icon">
         </nav>
         
         <div class="info">  
-            <h1><span class="auto-type"></span></h2>
-            <h1>I'm <span>Vishesh</span> Kumar</h1>
+            <h1><span class="auto-type"></span></h1>
+            <h1>I'm <span class="highlight">Vishesh</span> Kumar</h1>
             <p>To secure a challenging position where <br>I can effectively contribute my skills as a professional <br>possessing
             competent technical skills. </p>
             <p style="opacity: 0.6; margin-top:0.5rem">For more info can check out my <span>resume</span> below.</p>
@@ -49,10 +49,34 @@
             <a href="https://leetcode.com/19vishesh/" target="_blank"><i class="fas fa-code"></i></a>
             <a href="https://www.instagram.com/singhvisheshkumar/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
+
+        <section class="hireme">
+            <div class="popup" id="popup">
+                <h1><span class="highlight">Vishesh</span> Kumar</h1>
+                <h2>Contact Me:</h2>
+                <ul>
+                    <li>Email : 19vishesh@gmail.com</li>
+                    <li>Mobile no : +91-9115514120</li>
+                </ul>
+                <h2>Follow Me</h2>
+        
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/19vishesh/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/19vishesh" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/19vishesh" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/19vishesh/" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="https://www.instagram.com/singhvisheshkumar/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+        
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </section>
+        
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
+    <script src="hireme.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --main-font-color:#ff4321;
+}
+.hireme{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    background: var(--primary-color);
+    width: 40rem;
+    height: 30rem;
+    padding: 1.8rem 2.5rem 1rem 2.5rem;
+    position: absolute;
+    top: 0%;
+    left: 50vh;
+    transform: translate(50%, 50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 1s, top 1s;
+    color: var(--secondary-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 5rem var(--secondary-color);
+    opacity: 0.9;
+}
+.popup h1{
+    color: var(--secondary-color);
+    margin: 1rem 2.5rem;
+    margin-bottom: .2rem;
+    font-weight: 700;
+    font-size: 2.5rem
+}
+.popup h2{
+    color: var(--secondary-color);
+    margin: 2.5rem 2.5rem .8rem 2.5rem;
+}
+.popup li{
+    list-style: none;
+    margin: auto auto 1rem 2.5rem ;
+}
+.open-popup{
+    visibility: visible;
+    top: 9%;
+    transform: translate(0%, 0%) scale(1);
+}
+.popup button{
+    width: 5rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 2rem;
+    background-color: red;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 7rem;
+    margin-left: 2.5rem;
+}
+
+.popup .social-links {
+    margin: 0 0 0 2.5rem
+}
+.popup .social-links a{
+    color: var(--secondary-color);
+}
