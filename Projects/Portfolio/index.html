@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio by Vishesh-kumar</title>
     <link rel="icon" href="/images/favicon-icon.png">
-    <link rel="stylesheet" href="hireme.css">
+    <link rel="stylesheet" href="/Work-Exp-Components/workexp.css">
+    <link rel="stylesheet" href="/Hireme-Components/hireme.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
@@ -14,19 +15,20 @@
     <div id="preloader"></div>
     <div class="hero">
         
+        <!-- ***************** NAVIGATION SECTION ***************** -->
         <nav>
             <img src="images/logo.png" alt="logo" class="logo">
-            
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">projects</a></li>
-                <li><a href="#">work exp</a></li>
-                <li><a href="#" onclick="openPopup()">Hire Me</a></li>
+                <li><a href="#" onclick='openWorkPopup()'>work exp</a></li>
+                <li><a href="#" onclick='openHirePopup()'>Hire Me</a></li>
             </ul>
             <img src="images/moon.png" alt="" id="icon">
         </nav>
         
+        <!--***************** LEFT SECTION *****************-->
         <div class="info">  
             <h1><span class="auto-type"></span></h1>
             <h1>I'm <span class="highlight">Vishesh</span> Kumar</h1>
@@ -36,12 +38,13 @@
             <div class="download"><a href="download-resume/Vishesh's Resume.pdf" download>Download CV</a></div>
         </div>
 
-
+        <!--***************** RIGHT SECTION *****************-->
         <div class="img-box">
             <img src="images/pattern.png" alt="" class="back-img">
             <img src="images/boy.png" alt="" class="front-img">
         </div>
 
+        <!--***************** FOOTER : SOCIAL MEDIA LINKS *****************-->
         <div class="social-links">
             <a href="https://www.linkedin.com/in/19vishesh/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://twitter.com/19vishesh" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -50,33 +53,97 @@
             <a href="https://www.instagram.com/singhvisheshkumar/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
 
-        <section class="hireme">
-            <div class="popup" id="popup">
-                <h1><span class="highlight">Vishesh</span> Kumar</h1>
-                <h2>Contact Me:</h2>
-                <ul>
-                    <li>Email : 19vishesh@gmail.com</li>
-                    <li>Mobile no : +91-9115514120</li>
-                </ul>
-                <h2>Follow Me</h2>
-        
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/19vishesh/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://twitter.com/19vishesh" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://github.com/19vishesh" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://leetcode.com/19vishesh/" target="_blank"><i class="fas fa-code"></i></a>
-                    <a href="https://www.instagram.com/singhvisheshkumar/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-        
-                <button type="button" onclick="closePopup()">OK</button>
-            </div>
-        </section>
-        
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="script.js"></script>
-    <script src="hireme.js"></script>
+<!--******************************************************************************************************-->
+<!--******************************************************************************************************-->
+<!--*ANCHOR DIALOG BOX STARTS-->
+<!--******************************************************************************************************-->
+
+    <!--***************** HIREME BOX *****************-->
+    <section class="hireme">
+        <div class="hirepopup" id="hirepopup">
+            <h1><span class="highlight">Vishesh</span> Kumar</h1>
+            <h2>Contact Me:</h2>
+            <ul>
+                <li><i class="fa fa-envelope"></i>  19vishesh@gmail.com</li>
+                <li><i class="fa fa-phone-square"></i> +91-9115514120</li>
+            </ul>
+            <h2>Follow Me</h2>
     
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/19vishesh/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/19vishesh" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/19vishesh" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/19vishesh/" target="_blank"><i class="fas fa-code"></i></a>
+                <a href="https://www.instagram.com/singhvisheshkumar/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+    
+            <div id="closehirepopwin">
+                <button type="button" class="closepop" onclick="closeHirePopup()">Close</button>
+            </div>
+        </div>
+    </section>
+
+    <!--***************** WORK-EXPERIENCE BOX *****************-->
+    <section class="workexp">
+        <div class="workpopup" id="workpopup">
+            <div class="exp exp1">
+                <h1 class="designation">Programmer Analyst Trainee</h1>
+                <h1 class="orgname">Cognizant Technology Solutions</h1>
+                <div class="workduration">
+                    <p>08/2020 - 06/2021</p>
+                    <p>Pune, Maharastra</p>
+                </div>
+                <h3>Works on / Tasks</h3>
+                <div class="worklist">
+                    <li>Worked on Platform Migration Project</li>
+                    <li>Deployed scripts to Unix and database environment(SQL
+                        server), maintaining Data consistency, Platform management.</li>
+                    <li>Monitoring of job-run in the production environment.
+                        Debugging errors and fixing them.</li>
+                </div>
+            </div>
+            <hr>
+            <div class="exp exp2">
+                <h2 class="designation">Intern</h2>
+                <h2 class="orgname">Cognizant Technology Solutions</h2>
+                <div class="workduration">
+                    <p>02/2020 - 06/2020</p>
+                    <p>Chennai, Tamil Nadu</p>
+                </div>
+                <h3>Works on / Tasks</h3>
+                <div class="worklist">
+                    <li>Data Visualization</li>
+                    <li>Database Modelling MySql</li>
+                    <li>Tableau, Qliksense, Qlikview, Microsoft PowerBi</li>
+                </div>
+            </div>
+            <hr>
+            <div class="exp exp3">
+                <h2 class="designation">Trainee</h2>
+                <h2 class="orgname">Hindalco Industries Ltd.</h2>
+                <div class="workduration">
+                    <p>12/2018 - 01/2019</p>
+                    <p>Renukoot, Uttar Pradesh</p>
+                </div>
+                <h3>Works on / Tasks</h3>
+                <div class="worklist">
+                    <li>Oracle Sql Database Management</li>
+                    <li>Understanding and analyzing the company's spacial data</li>
+                </div>
+            </div>
+    
+            <div id="closeworkpopwin">
+                <button type="button" class="closepop" onclick="closeWorkPopup()">Close</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="dialog.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>

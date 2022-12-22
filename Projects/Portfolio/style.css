@@ -8,7 +8,7 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: disc;
     transition: .5s
 }
 
@@ -20,7 +20,9 @@
 body {
     background-color: var(--primary-color);
 }
-
+.blur {
+    filter: blur(.7rem);
+}
 .hero {
     height: 100vh;
     width: 100%;
@@ -138,6 +140,7 @@ span {
     box-shadow: 0 0 1.5rem coral
 }
 
+/************** SOCIAL-LINKS SECTION STARTS *********************/
 .social-links {
     margin: 0 0 0 8%
 }
@@ -154,3 +157,6 @@ span {
     border: none;
     text-shadow: 0 0 1.5rem coral
 }
+
+/************** DIALOG-BOX(POPUP) SECTION STARTS *********************/
+

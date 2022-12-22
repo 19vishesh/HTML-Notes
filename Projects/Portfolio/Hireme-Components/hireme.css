@@ -1,3 +1,6 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 :root {
     --primary-color: #edf2fc;
     --secondary-color: #212121;
@@ -10,7 +13,11 @@
     align-items: center;
 }
 
-.popup{
+.hireme .fa {
+    font-size: 1.3rem;
+    margin-right: .3rem;
+}
+.hirepopup {
     background: var(--primary-color);
     width: 40rem;
     height: 30rem;
@@ -20,48 +27,54 @@
     left: 50vh;
     transform: translate(50%, 50%) scale(0.1);
     visibility: hidden;
-    transition: transform 1s, top 1s;
+    transition: transform .5s, top 2s;
     color: var(--secondary-color);
     border-radius: 1rem;
     box-shadow: 0 0 5rem var(--secondary-color);
     opacity: 0.9;
 }
-.popup h1{
+
+.open-hirepopup {
+    visibility: visible;
+    top: 9%;
+    transform: translate(0%, 0%) scale(1);
+}
+
+.hirepopup #closehirepopwin {
+    text-align: center;
+    color: #fff;
+}
+
+.hirepopup h1{
     color: var(--secondary-color);
     margin: 1rem 2.5rem;
     margin-bottom: .2rem;
     font-weight: 700;
     font-size: 2.5rem
 }
-.popup h2{
+.hirepopup h2{
     color: var(--secondary-color);
     margin: 2.5rem 2.5rem .8rem 2.5rem;
 }
-.popup li{
+.hirepopup li{
     list-style: none;
     margin: auto auto 1rem 2.5rem ;
 }
-.open-popup{
-    visibility: visible;
-    top: 9%;
-    transform: translate(0%, 0%) scale(1);
+
+.hirepopup .social-links {
+    margin: 0 0 0 2.5rem
 }
-.popup button{
+
+.hirepopup .closepop {
+    text-align: center;
     width: 5rem;
     height: 3rem;
     border: 0;
     border-radius: 2rem;
-    background-color: red;
-    color: var(--secondary-color);
+    background-color: var(--main-font-color);
+    color: var(--primary-color);
     font-size: 1rem;
     font-weight: 700;
     margin-top: 7rem;
     margin-left: 2.5rem;
-}
-
-.popup .social-links {
-    margin: 0 0 0 2.5rem
-}
-.popup .social-links a{
-    color: var(--secondary-color);
 }

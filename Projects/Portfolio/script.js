@@ -23,3 +23,5 @@ let typed = new Typed('.auto-type',
     backSpeed: 100,
     loop:true
 })
+
+
