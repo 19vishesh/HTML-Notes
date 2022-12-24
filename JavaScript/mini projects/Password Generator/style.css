@@ -59,9 +59,11 @@ input {
 .length input {
     padding: 20px;
     height: 45px;
-    width: 60px;
+    width: 90px;
     border: 2px solid var(--main-color);
     text-align: center;
+    font-style: normal;
+    opacity: 0.6;
 }
 
 .btn {

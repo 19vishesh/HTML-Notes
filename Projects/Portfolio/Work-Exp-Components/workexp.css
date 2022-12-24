@@ -46,14 +46,17 @@
 }
 
 .exp1, .exp2, .exp3{
-    margin-bottom: 2rem;
+    margin: 1rem 0 2rem;
 }
 
 .workexp hr{
     width: 80%;
+    opacity: 0.2;
+    color: var(--secondary-color);
 }
 .designation {
     margin: .1rem 0;
+    color: var(--main-font-color);
 }
 .orgname {
     font-weight: 500;

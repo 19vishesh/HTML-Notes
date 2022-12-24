@@ -21,4 +21,5 @@ function generatePassword() {
 function copyPassword() {
     input.select();
     document.execCommand('copy')
+    alert('Password Copied!')
 }
