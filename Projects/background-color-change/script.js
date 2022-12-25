@@ -1,13 +1,7 @@
-let typed = new Typed('.auto-type', {
-    strings: ['Coding', 'Eating'],
-    typeSpeed : 150, 
-    loop : true
-})
-
 function randomColor() {
     let char = '123456789ABCDEF'
     let color = '#'
-    for(let i=0; i<6; i++){
+    for(let i=0; i<5; i++){
         color += Math.floor(Math.random() * 16)
     }
     return color
