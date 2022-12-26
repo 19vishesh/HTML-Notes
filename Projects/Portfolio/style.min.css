@@ -114,11 +114,12 @@ span {
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 6.25rem
+    right: 6.25rem;
 }
 
 .img-box img {
     height: 100%;
+    /* width: 100%; */
     position: absolute;
     left: 50%;
     bottom: 0;

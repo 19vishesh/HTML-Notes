@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+nav{
+    background: grey;
+    height: 80px;
+    width: 100%; 
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+nav ul li{
+    margin-right:10px ;
+}
+.checkbtn{
+    float: right;
+    color: #fff;
+
+}
