@@ -8,24 +8,19 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: disc;
+    list-style: none;
     transition: .5s
 }
 
 :root {
     --primary-color: #edf2fc;
-    --secondary-color: #212121;
-    --main-font-color:#ff4321;
+    --secondary-color: #212121
 }
-body {
-    background-color: var(--primary-color);
-}
-.blur {
-    filter: blur(.7rem);
-}
+
 .hero {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    background-color: var(--primary-color);
     font-family: sans-serif;
     position: relative
 }
@@ -34,11 +29,11 @@ body {
     width: 1.8rem;
     cursor: pointer;
     padding-left: 2rem;
-    color: var(--main-font-color)
+    color: #ff4321
 }
 
 .dark-theme {
-    --primary-color: #212121;
+    --primary-color: #000106;
     --secondary-color: #fff
 }
 
@@ -78,14 +73,13 @@ nav ul a:hover {
     text-shadow: 0 0 1.5rem coral
 }
 
-/************** INFO SECTION STARTS *********************/
 .info {
-    margin-top: 8%;
+    margin-top: 15%;
     margin-left: 8%
 }
 
 span {
-    color: var(--main-font-color)
+    color: #ff4321
 }
 
 .info h1 {
@@ -114,7 +108,7 @@ span {
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 6.25rem;
+    right: 6.25rem
 }
 
 .img-box img {
@@ -140,7 +134,6 @@ span {
     box-shadow: 0 0 1.5rem coral
 }
 
-/************** SOCIAL-LINKS SECTION STARTS *********************/
 .social-links {
     margin: 0 0 0 8%
 }
@@ -157,9 +150,6 @@ span {
     border: none;
     text-shadow: 0 0 1.5rem coral
 }
-
-/************** DIALOG-BOX(POPUP) SECTION STARTS *********************/
-
 
 /* profile-image resizing */
 @media (max-width:1050px){
