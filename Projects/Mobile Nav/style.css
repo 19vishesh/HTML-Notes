@@ -9,9 +9,15 @@ nav{
     background: grey;
     height: 80px;
     width: 100%; 
-    /* display: flex; */
-    justify-content: space-between;
-    align-items: center;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 label.logo{
     color: white;
@@ -21,7 +27,7 @@ label.logo{
     font-weight: 600;
 }
 nav ul{
-    display: flex;
+    
     /* flex-direction: row-reverse; */
 }
 nav ul li{
@@ -30,5 +36,39 @@ nav ul li{
 .checkbtn{
     float: right;
     color: #fff;
+    line-height: 80px;
+    cursor: pointer;
+    margin-right: 40px;
+    display: none;
+    z-index: 5;
+}
+#check{
+    display: none;
+}
 
+@media (max-width: 952px){
+    label.logo{
+        padding-left: 50px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background: blueviolet;
+        text-align: center;
+        top: -100%;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+    }
+    #check:checked ~ ul{
+        top: 80px;
+    }
+   
 }
