@@ -20,7 +20,7 @@
 }
 .hirepopup {
     background: var(--primary-color);
-    width: 40rem;
+    width: 50%;
     height: 30rem;
     padding: 1.8rem 2.5rem 1rem 2.5rem;
     position: absolute;

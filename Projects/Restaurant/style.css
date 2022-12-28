@@ -33,6 +33,16 @@ section {
   padding: 2rem 9%;
 }
 
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  padding:1rem;
+  color:#666;
+}
+.heading span{
+  color:var(--red);
+}
+
 .btn {
   display: inline-block;
   padding: 0.8rem 3rem;
@@ -111,7 +121,7 @@ header .navbar a:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
-  background: url(/Restaurant/images/home-bg.jpg) no-repeat;
+  background: url(/images/home-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -148,6 +158,37 @@ header .navbar a:hover {
   color: #666;
   padding: 1rem 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media queries */
 @media (max-width: 991px) {
