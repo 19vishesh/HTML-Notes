@@ -1,4 +1,4 @@
-const popbtn1 = document.getElementById('workpopup')
+const popbtn1 = document.querySelector('.workexp')
 const hero = document.querySelector('.hero')
 
 function openWorkPopup() {
@@ -13,7 +13,7 @@ function closeWorkPopup() {
 
 //********************************************************************************************* */
 //********************************************************************************************* */
-const popbtn2 = document.getElementById('hirepopup')
+const popbtn2 = document.querySelector('.hireme')
 
 function openHirePopup() {
     popbtn2.classList.add('open-hirepopup');
