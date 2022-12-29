@@ -28,7 +28,7 @@
     border-radius: 1rem;
     box-shadow: 0 0 5rem var(--secondary-color);
     opacity: 0.9;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .open-workpopup {
