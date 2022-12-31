@@ -1,0 +1,16 @@
+*, *::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    border-color: #333;
+}
+.paddle {
+    position: absolute;
+}
+.paddle .left {
+    left: 1vw;
+}
+.paddle .right {
+    right: 1vw;
+}
