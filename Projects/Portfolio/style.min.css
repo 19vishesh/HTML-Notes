@@ -169,7 +169,7 @@ span {
 .download a:hover {
   background: coral;
   border: none;
-  box-shadow: .3rem 0 1rem coral);
+  box-shadow: .3rem 0 1rem coral;
   font-weight: 600;
 }
 

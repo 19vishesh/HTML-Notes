@@ -1,10 +1,5 @@
-// function changeback() {
-//     const x = document.getElementById('para')
-//     const y = document.getElementsByClassName('.green')
-//     // console.log(x)
-//     console.log(y)
-// }
+function b() {
+    x = 23;
+}
 
-// changeback();
-
-let arr = ['vishesh','rahul']
+console.log(b)
