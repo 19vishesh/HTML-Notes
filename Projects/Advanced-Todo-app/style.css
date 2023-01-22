@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(235, 21%, 11%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner-con {
+    width: 100%;
+    height: 60vh;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background: url("/images/bg-desktop-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 37.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40vh;
+}
+
+.content h1 {
+    letter-spacing: 0.625rem;
+    color: #fff;
+}
+
+.content img {
+    height: 3.2rem;
+}
+
+.todo {
+    width: 37.5rem;
+    max-height: 31rem;
+}
+
+form {
+    width: 100%;
+    height: 5rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.938rem 1.87rem;
+    border-radius: 0.313;
+    margin-top: 2rem;
+    background: hsl(235, 24%, 19%);
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.063rem;
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color: rgb(183, 185, 185);
+    letter-spacing: 0.125rem;
+}
+
+.list {
+    width: 100%;
+    max-height: 20.623;
+    margin-top: 2rem;
+}
+
+.todo-con {
+    width: 100%;
+    background-color: hsl(235, 24%, 19%);
+    border-radius: 0.313rem;
+}
+
+.todo-li {
+    display: flex;
+    background-color: hsl(235, 24%, 19%);
+    padding: 1rem 0.9rem;
+    border-top-left-radius: 0.313rem;
+    border-top-right-radius: 0.313rem;
+    
+}
+
+.todo-li p {
+    width: 92%;
+    color: #fff;
+}
+
+.todo-li .check {
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 0.063rem solid hsl(233, 14%, 35%);
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.todo-li .check img {
+    transform: scale(0);
+    transform: all .3s ease;
+}
+
+.todo-li .close {
+    background: transparent;
+    outline: none;
+    border: none;
+    opacity: 0;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.todo-li:hover .close{
+    opacity: 1;
+}
+.hr{
+    width: 100%;
+    background: hsl(233, 14%, 35%);
+    height: .0.063rem;
+}
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(234, 11%, 52%);
+    padding: 1rem .9rem;
+    background-color: hsl(235, 24%, 19%);
+    border-bottom-left-radius: 0.313rem;
+    border-bottom-right-radius: 0.313rem;
+}
+.choice{
+    display: flex;
+}
+.choice p{
+    padding: 0 0.313rem;
+}
+
+.info p:hover{
+    color: hsl(220, 98%, 61%);
+    cursor: pointer;
+}
+.active {
+    color: hsl(220, 98%, 61%);
+}
+.active-check{
+    background: linear-gradient(hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
+}
+.active-check img{
+    transform: scale(1) !important;
+}
+.complete{
+    text-decoration: line-through;
+    opacity: .5;
+}
+
