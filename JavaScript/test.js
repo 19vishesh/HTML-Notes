@@ -8,4 +8,4 @@ const pr=(x) => {new Promise((reject, resolve) => {
 })}
 
 
-pr(1)
+console.log(b)

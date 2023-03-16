@@ -1,0 +1,17 @@
+.flexbox{
+    display: flex;
+    background-color: blue;
+}
+.flexitem{
+    background-color: red;
+    border: 1px solid black;
+    color: aliceblue;
+    font-weight: 800;
+    margin: 12px;
+    height: 122px;
+    width: 122px;
+    flex: 1;
+}
+
+.item2{
+}
