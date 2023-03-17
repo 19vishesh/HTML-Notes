@@ -1,6 +1,7 @@
 .flexbox{
     display: flex;
     background-color: blue;
+    flex-wrap: wrap;
 }
 .flexitem{
     background-color: red;
@@ -10,7 +11,7 @@
     margin: 12px;
     height: 122px;
     width: 122px;
-    flex: 1;
+    flex: 1 5rem;
 }
 
 .item2{
